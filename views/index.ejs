@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../public/css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu-alt-right" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services/Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Akash Dey</h1>
+        <h3>And i'm a <span class="multiple-text"></span></h3>
+        <p>
+          I am a Web and App Developer who has an experience of more than 1 year
+          working with live projects
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/akash-dey-b50a9021a"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/AkashDey17"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/harshit_sky_"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <!-- download="Akash-Resume.pdf" -->
+        <!-- if we add this attribute the pdf will download using the name Akash-Resume if we dont add this we can just view pdf not download  -->
+        <a href="../assets/Akash-Resume.pdf" class="btn" target="_blank"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="../assets/profile-removebg-preview (1).png" alt="" />
+      </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="../assets/profile2.png" alt="" srcset="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web and App Developer</h3>
+        <p>
+          I am a Web and App Developer who has an experience of more than 1 year
+          working with live projects
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Work</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I make websites using Mern Stack and i am proficient in using
+            MongoDb and MySql as well
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code"></i>
+          <h3>App Development</h3>
+          <p>
+            I make applications using React Native and i am proficient in using
+            MongoDb,Appwrite,NeonDb.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="services1-container">
+        <h1 class="services1-heading">My <span>Skills</span></h1>
+
+        <div class="services1-box-container">
+          <div class="box">
+            <img src="../assets/icon-3.png" alt="" />
+            <h3>JS</h3>
+          </div>
+
+          <div class="box">
+            <img src="../assets/icon-6.png" alt="" />
+            <h3>React</h3>
+          </div>
+
+          <div class="box">
+            <img src="../assets/nodeicon.png" alt="" />
+            <h3>NodeJs</h3>
+          </div>
+
+          <div class="box">
+            <img src="../assets/expressicon.png" alt="" />
+            <h3>ExpressJS</h3>
+          </div>
+
+          <div class="box">
+            <img src="../assets/reactnativeicon.png" alt="" />
+            <h3>React-Native</h3>
+          </div>
+
+          <div class="box">
+            <img src="../assets/mongodbicon.jpg" alt="" />
+            <h3>MongoDb</h3>
+          </div>
+          <div class="box">
+            <img src="../assets/mysqlicon.png" alt="" />
+            <h3>MYSQL</h3>
+          </div>
+          <div class="box">
+            <img src="../assets/figma.png" alt="" />
+            <h3>Figma</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="../assets/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Developement</h4>
+            <p>
+              I have created this website using vanila HTML,CSS,JS and backend i
+              have used NodeJs.
+            </p>
+            <a href="https://durvah2.onrender.com/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="../assets/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Tomato Website</h4>
+            <p>
+              It is a food delivery app created using MERN stack i have also
+              created admin pannel for this web application.
+            </p>
+            <a href="https://mesmerising-frontend.onrender.com"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="../assets/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>CricFantasy</h4>
+            <p>
+              It's my Cricket Fantasy Website where i can add my ground or any
+              cricket kit upload images give reviews i have used Mongodb as my
+              database.
+            </p>
+            <a href="https://cricfantasy.onrender.com"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="../assets/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Ryder Application</h4>
+            <p>
+              It's my Rider App where i have used Clerk for Authurization and
+              Authentication and database as NeonDb i have react native to build
+              this application and TailwindCss for my styling.
+            </p>
+            <a href="https://github.com/AkashDey17/RiderApp"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="../assets/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>RealEstate Application</h4>
+            <p>
+              It is a RealEstate app created using React Native i have used
+              AppWrite for GoogleAuth and DataBase for styling i have used
+              TailwindCss.
+            </p>
+            <a href="https://github.com/AkashDey17/RealEstateApp"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="../assets/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Movie Booking Application</h4>
+            <p>
+              It is a Movie Booking App created using React-Native i have also
+              added payment integrating for this App.
+            </p>
+            <a href="#"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="/send-email" class="form" method="POST" id="contact-form">
+        <div class="input-box">
+          <input type="text" name="name" id="name" placeholder="Full Name" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Enter Number"
+          />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter Subject"
+          />
+        </div>
+        <textarea
+          name="text"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Akash Dey | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="../public/js/script.js"></script>
+  </body>
+</html>
